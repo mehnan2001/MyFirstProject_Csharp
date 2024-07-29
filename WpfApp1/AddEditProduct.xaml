@@ -1,0 +1,44 @@
+﻿<Window x:Class="WpfApp1.AddEditProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="AddEditProduct" Height="410" Width="450" FontFamily="B titr" FontSize="15" ResizeMode="NoResize">
+    <Grid>
+        <StackPanel Margin="20">
+
+            <Label Name="lblTitr" HorizontalAlignment="Center" FontSize="25"></Label>
+
+            <DockPanel Margin="10">
+                <TextBox  Name="tbProductName" HorizontalAlignment="Left" Width="250"></TextBox>
+                <Label HorizontalAlignment="Right">:نام کالا</Label>
+            </DockPanel>
+
+
+            <DockPanel Margin="10">
+                <TextBox Name="tbDescription" HorizontalAlignment="Left" Width="250"></TextBox>
+                <Label HorizontalAlignment="Right">:توضیحات</Label>
+            </DockPanel>
+
+            <DockPanel Margin="10">
+                <TextBox Name="tbInventory" HorizontalAlignment="Left" Width="250" MaxLength="10"></TextBox>
+                <Label HorizontalAlignment="Right">:موجودی</Label>
+            </DockPanel>
+
+            <DockPanel Margin="10">
+                <TextBox Name="tbPrice" HorizontalAlignment="Left" Width="250"></TextBox>
+                <Label HorizontalAlignment="Right">:قیمت</Label>
+            </DockPanel>
+            
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="190">
+
+                <Button Name="btnCancell" Margin="10,10,0,0" Width="80" Background="Red" Click="btnCancell_Click">لغو</Button>
+                <Button Name="btnOk" Margin="10,10,0,0" Width="80" Background="Green" Click="btnOk_Click">تایید</Button>
+
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+</Window>

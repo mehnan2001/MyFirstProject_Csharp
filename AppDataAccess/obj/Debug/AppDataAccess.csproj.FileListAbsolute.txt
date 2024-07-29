@@ -1,0 +1,9 @@
+C:\Users\Dastkhat Store\source\repos\App1\AppDataAccess\bin\Debug\AppDataAccess.dll
+C:\Users\Dastkhat Store\source\repos\App1\AppDataAccess\bin\Debug\AppDataAccess.pdb
+C:\Users\Dastkhat Store\source\repos\App1\AppDataAccess\obj\Debug\AppDataAccess.csproj.AssemblyReference.cache
+C:\Users\Dastkhat Store\source\repos\App1\AppDataAccess\obj\Debug\AppDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Dastkhat Store\source\repos\App1\AppDataAccess\obj\Debug\AppDataAccess.dll
+C:\Users\Dastkhat Store\source\repos\App1\AppDataAccess\obj\Debug\AppDataAccess.pdb
+C:\Users\Dastkhat Store\source\repos\App1\AppDataAccess\bin\Debug\DBseller.csv
+C:\Users\Dastkhat Store\source\repos\App1\AppDataAccess\bin\Debug\DBbuyer.csv
+C:\Users\Dastkhat Store\source\repos\App1\AppDataAccess\bin\Debug\DBproduct.csv
